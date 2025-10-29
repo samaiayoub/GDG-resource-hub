@@ -14,12 +14,12 @@ function App() {
       alignItems: 'center', 
       justifyContent: 'center', 
       height: '100vh', 
-      backgroundColor: '#f0f0f0' // Optional background
+      backgroundColor: '#f0f0f0' 
     }}>
       <div style={{ 
         position: 'relative', 
-        width: '400px', // Adjust based on image sizes
-        height: '200px', // Adjust based on image sizes
+        width: '400px', 
+        height: '200px', 
         marginBottom: '20px'
       }}>
         <img 
@@ -27,8 +27,8 @@ function App() {
           alt="Logo Right" 
           style={{ 
             position: 'absolute', 
-            width: '200px', // Adjust as needed
-            height: '200px', // Adjust as needed
+            width: '200px', // hadi tania
+            height: '200px', // matnsach
             transition: 'left 0.5s ease-in-out', 
             left: inverted ? '0px' : '200px' 
           }} 
@@ -38,8 +38,8 @@ function App() {
           alt="Logo Left" 
           style={{ 
             position: 'absolute', 
-            width: '200px', // Adjust as needed
-            height: '200px', // Adjust as needed
+            width: '200px', // hadi q3
+            height: '200px', // adjustiha mb3d 
             transition: 'left 0.5s ease-in-out', 
             left: inverted ? '200px' : '0px' 
           }} 
